@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lora&family=Montserrat:wght@100&family=Nunito:wght@200&display=swap");
+.list-group-item.active {
+  background-color: orange;
+  color: black;
+  border-color: black;
+  margin-left: 10px;
+  width: 99%;
+}
+
+body {
+  background-image: url(../imagenes/background.png);
+  overflow-x: hidden;
+  background: cover !important;
+}
+
+.container-fluid {
+  background-color: orange;
+}
+
+.nav-link {
+  color: firebrick !important;
+  font-family: "Anton", sans-serif;
+}
+
+body nav :hover {
+  size: 100px;
+}
+
+.navbar-brand {
+  color: firebrick !important;
+  font-family: "Anton", sans-serif;
+  padding: 5px 25px;
+}
+
+.navbar {
+  padding-top: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px 125px;
+}
+
+.text-center {
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  color: orange;
+  margin-top: 50px;
+}
+/*footer*/
+footer nav div {
+  margin: 0px;
+  cursor: pointer;
+  bottom: 0px;
+  position: fixed;
+}
+
+footer ul a {
+  list-style: none;
+  display: inline !important;
+}
+
+#iconos {
+  padding: 10px 20px;
+  margin-left: 200px;
+}
+
+.btn {
+  width: 100%;
+  background-color: orange;
+}
+
+button {
+  background-color: orange !important;
+  color: firebrick !important;
+}
+
+.btn-danger :hover {
+  background-color: firebrick !important;
+}
+
+.rounded {
+  max-height: 300px;
+}
+
+/*menu*/
+.col-sm-12 {
+  padding: 5px 50px;
+}
+#nombre {
+  font-family: "Anton", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 105px;
+}
+#apellido {
+  font-family: "Anton", sans-serif;
+}
+.container {
+  margin-top: 50px;
+  margin-bottom: 125px;
+}
+.btn {
+  background-color: firebrick;
+  border: orange;
+  font-family: "Anton", sans-serif;
+  color: black;
+}
+
+.btn-primary:hover {
+  color: firebrick;
+  background-color: yellow;
+  border-color: black;
+}
+
+h5, .card-text {
+  color: firebrick;
+}
+
+.card {
+  background-color: black;
+  font-family: "Anton", sans-serif;
+}
+
+/*contacto*/
+form div {
+  font-family: "Anton", sans-serif;
+}
+
+fieldset legend {
+  color: black;
+  font-family: "Anton", sans-serif;
+}
+
+form {
+  background-color: orange !important;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: black;
+  border-style: groove;
+}
+form div {
+  padding: 5px 5px;
+}
+.col-form-label {
+  padding: 20px 20px;
+}
+
+/*ubicacion*/
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 60px;
+}
+
+/*prueba de ubicacion*/
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*mapa del sitio*/
+.img-fluid {
+  width: 100%;
+}
+
+.list-group {
+  padding: 15px 15px;
+}
+
+.list-group-item {
+  padding: 15px 15px;
+  margin: 15px;
+}
+section {
+  margin-bottom: 150px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
