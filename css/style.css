@@ -12,6 +12,16 @@ body {
   overflow-x: hidden;
   background: cover !important;
 }
+.navbar .navbar-light .bg-light {
+  margin-top:0px;
+}
+.bg-light {
+  padding: 0px;
+}
+#tituloNav {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .container-fluid {
   background-color: orange;
@@ -22,23 +32,16 @@ body {
   font-family: "Anton", sans-serif;
 }
 
-body nav :hover {
-  size: 100px;
-}
-
 .navbar-brand {
   color: firebrick !important;
   font-family: "Anton", sans-serif;
-  padding: 5px 25px;
+  padding: 12px 5px;
 }
 
 .navbar {
-  padding-top: 0px;
+  padding-top: 0px 0px;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0px 125px;
-}
 
 .text-center {
   font-size: 100px;
@@ -46,6 +49,8 @@ body nav :hover {
   color: orange;
   margin-top: 50px;
 }
+
+
 /*footer*/
 footer nav div {
   margin: 0px;
@@ -86,19 +91,13 @@ button {
 .col-sm-12 {
   padding: 5px 50px;
 }
-#nombre {
-  font-family: "Anton", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  margin-left: 105px;
-}
-#apellido {
-  font-family: "Anton", sans-serif;
-}
+
 .container {
   margin-top: 50px;
   margin-bottom: 125px;
+  
 }
+
 .btn {
   background-color: firebrick;
   border: orange;
@@ -134,7 +133,7 @@ fieldset legend {
 form {
   background-color: orange !important;
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
   margin-left: 10px;
   margin-right: 10px;
   border-color: black;
@@ -147,23 +146,6 @@ form div {
   padding: 20px 20px;
 }
 
-/*ubicacion*/
-.responsive-video {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 60px;
-}
-
-/*prueba de ubicacion*/
-.responsive-video iframe,
-.responsive-video object,
-.responsive-video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 /*mapa del sitio*/
 .img-fluid {
@@ -178,8 +160,13 @@ form div {
   padding: 15px 15px;
   margin: 15px;
 }
-section {
-  margin-bottom: 150px;
+body section {
+ background-color: yellow;
+ border-radius: 40px;
+}
+#cardCart {
+  background-color: yellow;
+  
 }
 
 
