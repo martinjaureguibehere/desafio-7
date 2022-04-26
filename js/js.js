@@ -41,3 +41,18 @@ function addItemToShoppingCart(cardTitle, cardPrice, cardImage) {
 shoppingCart.innerHTML = shoppingCartContent
 shoppingCartItemsContainer.append(shoppingCart)
 }
+
+let btn = document.querySelectorAll('.btn');
+document.addEventListener('click',() => {
+
+    Toastify({
+        text: "Agregaste al carrito",
+        duration: 3000,
+        gravity: 'bottom',
+        position: 'left',
+        style: {
+            background: 'linear-gradient(to right, orange, firebrick)',
+        }
+    }).showToast();
+})
+
